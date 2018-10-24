@@ -48,7 +48,11 @@
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      <video  class="video-item" autoplay="autoplay" loop="loop" width="600px" height="400px">
+        <source src={{ post.pic_title }} type="video/mp4" />
+      </video>
       {{ post.excerpt }}
+      
     </li>
   {% endfor %}
 </ul>
