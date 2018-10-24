@@ -4,10 +4,8 @@ title:  "Welcome to Jekyll!"
 pic_title: "http://winewithdiscountgames.com/collection/hellothere.mp4"
 ---
 
-Excerpt with multiple paragraphs
-
-Here's another paragraph in the excerpt.
-
+asdasdasdad
+Here's another paragraph in the excerpt.asdasdasdasdasdsad
 Out-of-excerpt
 <!--more-->
 # Welcome
