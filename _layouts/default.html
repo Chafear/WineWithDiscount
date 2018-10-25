@@ -48,7 +48,7 @@
   {% for post in site.posts %}
     <li>
       <h2 class="newsHead"><b>{{ post.title }}</b>
-      <p><video  autoplay muted  loop="loop" width="600px" height="400px">
+      <p><video  autoplay muted  loop="loop" >
         <source src={{ post.pic_title }} type="video/mp4" />
       </video>
       {{ post.excerpt }}
