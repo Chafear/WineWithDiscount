@@ -47,14 +47,14 @@
 <ul>
   {% for post in site.posts %}
     <li>
-      <h2 class="newsHead"><b>{{ post.title }}</b>
+      <h1 class="newsHead"><b>{{ post.title }}</b></h1>
       <p>
         <video  autoplay muted  loop="loop" >
           <source src={{ post.pic_title }} type="video/mp4" />
         </video> 
-      <span class="news-content">
+      <h2>
       {{ post.excerpt }}
-      </span>
+      </h2>
     </li>
   {% endfor %}
 </ul>
