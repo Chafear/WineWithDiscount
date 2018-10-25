@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-pic_title: "http://winewithdiscountgames.com/collection/hellothere.mp4"
+pic_title: "http://winewithdiscountgames.com/collection/hellothere3.mp4"
 ---
 
 asdasdasdad
