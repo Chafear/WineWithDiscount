@@ -8,13 +8,15 @@
 .page-header{
   background-image: url(https://chafear.github.io/WineWithDiscount/wine_small.png);
   background-size: contain;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
 @media only screen and (min-device-width: 400px) {
-   .page-header { 
-          background-image: url(https://chafear.github.io/WineWithDiscount/wine4.png);
+.page-header { 
+  background-image: url(https://chafear.github.io/WineWithDiscount/wine4.png);
   background-size: contain;
+  background-repeat: no-repeat;
   height: 100vh;
     }
 }
