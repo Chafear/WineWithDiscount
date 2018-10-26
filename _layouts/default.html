@@ -10,6 +10,12 @@
         gtag('js', new Date());
         gtag('config', '{{ site.google_analytics }}');
       </script>
+        <script>
+        var video = document.getElementById('video');
+        video.addEventListener('click',function(){
+          video.play(); 
+        },false);
+        </script>
     {% endif %}
     <meta charset="UTF-8">
 
@@ -68,10 +74,5 @@
       </footer>
     </main>
   </body>
-  <script>
-    var video = document.getElementById('video');
-    video.addEventListener('click',function(){
-      video.play(); 
-    },false);
-    </script>
+
 </html>
