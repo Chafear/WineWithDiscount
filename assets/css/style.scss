@@ -5,6 +5,7 @@
 .wwdg{
   font-size:100pt;
 }
+@media only screen and (max-device-width: 600px) {
 .page-header{
   background-image: url(https://chafear.github.io/WineWithDiscount/wine_small.png);
   background-size: 100% 100%;
@@ -12,7 +13,7 @@
 
 }
 
-@media only screen and (min-device-width: 400px) {
+
 .page-header { 
   background-image: url(https://chafear.github.io/WineWithDiscount/wine4.png);
   height: 100vh;
