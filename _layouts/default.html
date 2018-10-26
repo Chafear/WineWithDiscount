@@ -48,8 +48,8 @@
     <div>
       <h1 class="newsHead"><b>{{ post.title }}</b></h1>
       <p>
-        <video  autoplay muted  loop="loop" >
-          <source src={{ post.pic_title }} type="video/mp4" />
+        <video  autoplay autobuffer muted  loop="loop" >
+          <source src={{ post.pic_title }}  />
         </video> 
       <h2>
       {{ post.excerpt }}
@@ -68,4 +68,10 @@
       </footer>
     </main>
   </body>
+  <script>
+    var video = document.getElementById('video');
+    video.addEventListener('click',function(){
+      video.play(); 
+    },false);
+    </script>
 </html>
