@@ -44,9 +44,8 @@
 
     <main id="content" class="main-content" role="main">
       
-<ul>
   {% for post in site.posts %}
-    <li>
+    <div>
       <h1 class="newsHead"><b>{{ post.title }}</b></h1>
       <p>
         <video  autoplay muted  loop="loop" >
@@ -55,9 +54,9 @@
       <h2>
       {{ post.excerpt }}
       </h2>
-    </li>
+    </div>
   {% endfor %}
-</ul>
+
 
       {{ content }}
 
