@@ -45,7 +45,29 @@
 
     <main id="content" class="main-content" role="main">
 
+      
+      <iframe src="https://giphy.com/embed/c1bBnc3ryv6yJwyyjA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/c1bBnc3ryv6yJwyyjA">via GIPHY</a></p>
+      
+      <video autoplay muted loop playsinline poster="https://sun9-6.userapi.com/c635107/v635107449/25d1/FAwwkwTrMhs.jpg">
+<source src="https://multicdn.synq.fm/projects/bb/56/bb56f28429b942c08dc5128e4b7ba48c/derivatives/videos/71/43/71439ccd73c74ecc8bbab7abd3bb98bc/mp4_1080/71439ccd73c74ecc8bbab7abd3bb98bc_mp4_1080.mp4" type="video/mp4" />
+<source src="https://multicdn.synq.fm/projects/bb/56/bb56f28429b942c08dc5128e4b7ba48c/derivatives/videos/71/43/71439ccd73c74ecc8bbab7abd3bb98bc/webm_720/71439ccd73c74ecc8bbab7abd3bb98bc_webm_720.webm" type="video/webm" />
+</video>
+  {% for post in site.posts %}
+    <div>
+      <h1 class="newsHead"><b>{{ post.title }}</b></h1>
+      <p>
+        <video autoplay muted loop playsinline poster="https://media.giphy.com/media/5CIRqPOk0141W/giphy.gif">
+        <!--<video id="video" autoplay autobuffer muted  loop="loop" >-->
+          <source src={{ post.pic_title }}  />
+        </video> 
+      <h2>
+      {{ post.excerpt }}
+      </h2>
+    </div>
+  {% endfor %}
 
+
+      {{ content }}
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
