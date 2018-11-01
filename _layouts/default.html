@@ -47,9 +47,7 @@
 
   {% for post in site.posts %}
     <div class="post"> 
-      <h1 class="newsHead"><b>{{ post.title }}</b></h1>
-      <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
-      <br>
+      
       <p>
         <video width="100%" autoplay muted loop playsinline poster="https://media.giphy.com/media/5CIRqPOk0141W/giphy.gif">
         <!--<video id="video" autoplay autobuffer muted  loop="loop" >-->
@@ -57,7 +55,12 @@
         </video> 
       <div class="grid-container">
         <div class="item1">Right</div>
-        <div class="item2">{{ post.excerpt }}</div>
+        <div class="item2">
+          <h1 class="newsHead"><b>{{ post.title }}</b></h1>
+          <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
+          <br>
+          {{ post.excerpt }}
+        </div>
       </div>
     </div>
   {% endfor %}
