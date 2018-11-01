@@ -5,7 +5,9 @@
 .wwdg{
   font-size:100pt;
 }
-
+.mobile_post{
+  display:none;
+}
 .page-header { 
   background-image: url(https://chafear.github.io/WineWithDiscount/wine4.png);
   height: 100vh;
@@ -82,4 +84,7 @@ h5{
   .item1 {
     display: none; 
   }
+  .mobile_post{
+  display:block;
+}
 }
