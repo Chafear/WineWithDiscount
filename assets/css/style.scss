@@ -10,21 +10,7 @@
   background-image: url(https://chafear.github.io/WineWithDiscount/wine4.png);
   height: 100vh;
 }
-@media only screen and (max-device-width: 600px) {
-.page-header{
-  background-image: url(https://chafear.github.io/WineWithDiscount/wine_small.png);
-  background-size: 100% 100%;
-  max-width: 1500px;
-  height: 600px;
-}
-  .grid-container {
-  display: grid;
-  grid-template-areas:
-    'left right';
-  grid-gap: 10px;
-  padding: 10px;
-  grid-template-columns: 0 100%;
-}
+
 
 .grid-container > div {
   text-align: left;
@@ -87,5 +73,19 @@ h5{
   padding: 20px 0;
 }
 
-
+@media only screen and (max-device-width: 600px) {
+.page-header{
+  background-image: url(https://chafear.github.io/WineWithDiscount/wine_small.png);
+  background-size: 100% 100%;
+  max-width: 1500px;
+  height: 600px;
+}
+  .grid-container {
+  display: grid;
+  grid-template-areas:
+    'left right';
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: 0 100%;
+}
 
