@@ -26,8 +26,6 @@ body{
   margin-bottom:0px;
 }
 .main-content h1{
-  color:#c6c6c6;
-  margin-top:0px;
   margin-bottom:1em;
 }
 .page-header {
@@ -84,7 +82,11 @@ h5{
   .item1 {
     display: none; 
   }
-  .mobile_post{
+.mobile_post{
   display:flex;
+  margin-bottom:1em;
+}
+.main-content h1{
+  margin-bottom:0;
 }
 }
