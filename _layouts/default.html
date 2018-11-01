@@ -55,11 +55,9 @@
         <!--<video id="video" autoplay autobuffer muted  loop="loop" >-->
           <source src={{ post.pic_title }}  />
         </video> 
-
-      {{ post.excerpt }}
       <div class="grid-container">
         <div class="item1">Right</div>
-        <div class="item2">Footer</div>
+        <div class="item2">{{ post.excerpt }}</div>
       </div>
     </div>
   {% endfor %}
