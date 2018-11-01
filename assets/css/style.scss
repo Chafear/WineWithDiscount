@@ -52,6 +52,9 @@ h5{
 .post{
   margin-block-end: 3.5em; 
 }
+.post > h1 { 
+  margin-block-end: 3.5em; 
+}
 .item1 { grid-area: left; }
 .item2 { grid-area: right; }
 
@@ -63,8 +66,8 @@ h5{
   padding: 10px;
   grid-template-columns: 35% 65%;
 }
-.grid-container > div {
 
+.grid-container > div {
   text-align: left;
   padding: 20px 0;
 }
