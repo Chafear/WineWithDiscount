@@ -32,7 +32,11 @@ body{
   margin-top:0px;
   margin-bottom:0px;
 }
-
+.main-content h1{
+  color:#c6c6c6;
+  margin-top:0px;
+  margin-bottom:1em;
+}
 .page-header {
   background-color:#181818;
 }
@@ -50,9 +54,6 @@ h5{
   opacity: 0.4;
 }
 .post{
-  margin-block-end: 3.5em; 
-}
-.post > h1 { 
   margin-block-end: 3.5em; 
 }
 .item1 { grid-area: left; }
