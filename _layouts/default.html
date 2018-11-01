@@ -47,16 +47,20 @@
 
   {% for post in site.posts %}
     <div class="post"> 
-      
       <p>
         <video width="100%" autoplay muted loop playsinline poster="https://media.giphy.com/media/5CIRqPOk0141W/giphy.gif">
         <!--<video id="video" autoplay autobuffer muted  loop="loop" >-->
           <source src={{ post.pic_title }}  />
         </video> 
       <div class="grid-container">
-        <div class="item1"><h5>{{ post.date | date: "%b %-d, %Y" }}</h5></div>
+        <div class="item1">
+          <h5>{{ post.date | date: "%b %-d, %Y" }}</h5>
+        </div>
         <div class="item2">
           <h1 class="newsHead"><b>{{ post.title }}</b></h1>
+          <div class="mobile_post"> 
+            {{ post.date | date: "%b %-d, %Y" }}       
+          </div>
           <br>
           {{ post.excerpt }}
         </div>
