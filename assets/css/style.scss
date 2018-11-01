@@ -75,8 +75,8 @@ h5{
   display: grid;
   grid-template-areas:
     'left right';
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 0px;
+  padding: 0px;
   grid-template-columns: 0 100%;
 }
   .item1 {
