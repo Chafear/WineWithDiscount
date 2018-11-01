@@ -8,7 +8,7 @@ Hello there! Happy to present WINE WITH DISCOUNT GAMES - we here to convert lack
 We do best what we can do. Gamedev journey officialy starts today.
 <br>
 <br>
-gabeN bless us all.
+GabeN bless us all.
 
 <!--more-->
 
