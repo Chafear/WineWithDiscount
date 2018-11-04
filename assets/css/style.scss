@@ -20,9 +20,7 @@
   height:100%;
   width:100%;
 }
-.superlink{
-  font-size: 100pt;
-}
+
 body{
   background-color:#181818;
   line-height: 1.5em;
@@ -70,7 +68,10 @@ h5{
   text-align: left;
   padding: 20px 0;
 }
-
+.superlink{
+  font-size: 100pt;
+    line-height: auto;
+}
 @media only screen and (max-device-width: 600px) {
 .page-header{
   background-image: url(https://chafear.github.io/WineWithDiscount/wine_small.png);
@@ -97,3 +98,4 @@ h5{
   margin-bottom:0.2em;
 }
 }
+
